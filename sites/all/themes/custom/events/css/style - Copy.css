@@ -1,0 +1,142 @@
+body {
+  background: white;
+  width: 1080px;
+  float: right;
+  margin: 0; }
+  body .header {
+    display: flex;
+    justify-content: space-between; }
+    body .header .logo {
+      background-color: #15CADB;
+      width: 80px;
+      height: 80px;
+      margin-top: 8px;
+      line-height: 90px;
+      text-align: center;
+      color: white; }
+    body .header .menu-item {
+      display: flex;
+      justify-content: space-around;
+      font-size: 14px;
+      font-family: "Open Sans";
+      list-style: none;
+      width: 75%;
+      margin-left: 10%; }
+      body .header .menu-item li {
+        padding: 10px 0px; }
+      body .header .menu-item li a, body .header .menu-item li a:hover {
+        padding: 0px 28px;
+        text-decoration: none; }
+  body .event-container {
+    display: flex;
+    margin-bottom: 25px; }
+    body .event-container .left-content {
+      width: 38%;
+      display: flex;
+      justify-content: flex-end; }
+      body .event-container .left-content img {
+        height: 250px; }
+      body .event-container .left-content .event-desc {
+        padding: 10px 0;
+        font-size: 20px; }
+        body .event-container .left-content .event-desc h2 {
+          font-size: 35px;
+          color: #15CADB;
+          margin: 10px 0; }
+        body .event-container .left-content .event-desc p {
+          line-height: 30px; }
+    body .event-container .right-content {
+      width: 70%; }
+      body .event-container .right-content img {
+        height: 363px; }
+      body .event-container .right-content .sub-content {
+        padding: 0 10px; }
+        body .event-container .right-content .sub-content p {
+          margin: 5px 0; }
+        body .event-container .right-content .sub-content .date {
+          color: #15CADB;
+          font-weight: bold; }
+        body .event-container .right-content .sub-content .title {
+          font-size: 25px;
+          font-weight: bold; }
+        body .event-container .right-content .sub-content .desc {
+          width: 63%;
+          line-height: 24px;
+          font-family: "Open Sans"; }
+        body .event-container .right-content .sub-content .btn1 {
+          background: url("../images/btn1.png");
+          height: 35px;
+          width: 140px;
+          text-align: center;
+          line-height: 40px;
+          background-size: 100% 100%;
+          color: white;
+          margin-top: 15px; }
+  body .event-banner {
+    height: 450px;
+    position: relative; }
+    body .event-banner .left-content {
+      width: 38%;
+      position: absolute;
+      z-index: 999;
+      left: 0;
+      top: 30%; }
+      body .event-banner .left-content .event-desc {
+        font-size: 25px; }
+    body .event-banner .right-content {
+      width: 70%;
+      float: right;
+      top: 0;
+      right: 0;
+      position: absolute; }
+  body .event-item .right-content {
+    padding-left: 10px; }
+  body .event-item img.grp-img {
+    height: 275px; }
+  body .event-item .right-content .sub-content .desc {
+    width: 65%; }
+  body .upcoming-event {
+    margin-top: 50px; }
+    body .upcoming-event .events-label {
+      background: url("../images/events-label.png");
+      height: 40px;
+      width: 180px;
+      margin: 0 auto;
+      text-align: center;
+      line-height: 40px;
+      color: white;
+      background-size: 100% 100%;
+      margin-bottom: 20px; }
+    body .upcoming-event .events-list {
+      display: flex;
+      justify-content: space-between;
+      width: 70%; }
+      body .upcoming-event .events-list .events img {
+        width: 220px; }
+      body .upcoming-event .events-list .events .events-info {
+        background: url("../images/Background.png"); }
+        body .upcoming-event .events-list .events .events-info p {
+          margin: 10px 0; }
+        body .upcoming-event .events-list .events .events-info .time {
+          color: #15CADB;
+          font-weight: bold;
+          font-size: 12px;
+          margin-bottom: 5px; }
+        body .upcoming-event .events-list .events .events-info .events-title {
+          letter-spacing: 2px;
+          font-size: 20px;
+          color: gray;
+          margin-top: 0px; }
+        body .upcoming-event .events-list .events .events-info .line {
+          height: 2px;
+          width: 100px;
+          background-color: #F41361; }
+        body .upcoming-event .events-list .events .events-info .lrn {
+          color: #F41361;
+          font-size: 12px; }
+        body .upcoming-event .events-list .events .events-info .btn-arr {
+          background: url("../images/btn-arr.png");
+          width: 10px;
+          height: 10px;
+          display: inline-block;
+          background-size: 100% 100%; }

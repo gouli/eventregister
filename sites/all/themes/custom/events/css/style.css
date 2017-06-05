@@ -1,0 +1,188 @@
+body {
+  background: white;
+  margin: 0 200px 0 400px; }
+  body .npl {
+    padding-left: 0 !important; }
+  body .npr {
+    padding-right: 0 !important; }
+  body .header .band {
+    background-color: #15cadb;
+    width: 80%;
+    height: 35px; }
+  body .header .band:before {
+    content: "";
+    position: absolute;
+    border-top: 35px solid #15cadb;
+    border-left: 35px solid #fff; }
+  body .header .logo {
+    width: 80px;
+    height: 80px;
+    margin-top: 8px; }
+    body .header .logo .navbar-btn {
+      margin: 0px;
+      padding: 0px; }
+  body .header .menus {
+    margin-top: 10px;
+    font-weight: bold; }
+    body .header .menus .leaf a {
+      color: black;
+      padding: 0px 20px; }
+    body .header .menus .leaf a:hover {
+      text-decoration: none;
+      color: #15cadb; }
+  body .main-container {
+    float: left;
+    width: auto;
+    margin: 0px;
+    padding: 0px; }
+    body .main-container .row {
+      float: left;
+      width: auto;
+      padding: 0px;
+      margin: 0px; }
+      body .main-container .row .col-sm-12 {
+        float: left;
+        width: auto;
+        padding: 0px;
+        margin: 0px; }
+      body .main-container .row .region-content .panels-flexible-region-2-center {
+        width: auto; }
+        body .main-container .row .region-content .panels-flexible-region-2-center .panels-flexible-region-inside {
+          float: left; }
+  body .event-banner .left-content {
+    padding-top: 140px; }
+    body .event-banner .left-content .event-detail {
+      font-size: 25px; }
+      body .event-banner .left-content .event-detail h2 {
+        font-size: 35px;
+        color: #15CADB;
+        font-weight: bolder; }
+  body .event-banner .right-content img {
+    width: 100%; }
+  body .event-body {
+    padding-right: 200px; }
+    body .event-body .current-event {
+      margin: 50px 0px; }
+      body .event-body .current-event .left-content img {
+        width: 100%; }
+      body .event-body .current-event .right-content .sub-content .sub-content-text {
+        margin: 5px 0; }
+      body .event-body .current-event .right-content .sub-content .date {
+        color: #15CADB;
+        font-weight: bold; }
+      body .event-body .current-event .right-content .sub-content .title {
+        font-size: 25px;
+        font-weight: bold; }
+      body .event-body .current-event .right-content .sub-content .desc {
+        line-height: 24px;
+        font-family: "Open Sans";
+        margin-bottom: 25px; }
+      body .event-body .current-event .right-content .sub-content .btn1 {
+        background-color: #F41361;
+        color: #fff;
+        padding: 10px 15px;
+        cursor: pointer;
+        position: relative;
+        margin: 15px; }
+      body .event-body .current-event .right-content .sub-content .btn1:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "";
+        border-top: 36px solid #FFF;
+        border-right: 10px solid #F41361; }
+      body .event-body .current-event .right-content .sub-content .btn1:after {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        right: 0;
+        border-top: 36px solid #F41361;
+        border-right: 10px solid #FFF; }
+    body .event-body .upcoming-events h3 {
+      display: inline-block;
+      color: #FFF;
+      padding: 15px 15px;
+      background-color: #363636;
+      position: relative;
+      margin: 50px 0px; }
+    body .event-body .upcoming-events h3:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "";
+      border-top: 8px solid #FFF;
+      border-left: 265px solid #363636; }
+    body .event-body .upcoming-events h3:after {
+      position: absolute;
+      content: "";
+      bottom: 0;
+      left: 0;
+      border-top: 8px solid #363636;
+      border-left: 265px solid #FFF; }
+    body .event-body .upcoming-events .events .event-item {
+      position: relative; }
+      body .event-body .upcoming-events .events .event-item img {
+        width: 100%; }
+      body .event-body .upcoming-events .events .event-item .event-date {
+        position: absolute;
+        top: 0;
+        background: white;
+        right: 30px;
+        width: 65px;
+        height: 60px;
+        padding-top: 15px;
+        text-align: center;
+        vertical-align: middle; }
+        body .event-body .upcoming-events .events .event-item .event-date .event-month {
+          color: #15cadb;
+          text-transform: uppercase;
+          font-size: 14px; }
+        body .event-body .upcoming-events .events .event-item .event-date .event-date-p {
+          margin: 0;
+          font-weight: bold; }
+      body .event-body .upcoming-events .events .event-item .event-date:after {
+        content: "";
+        border-top: 15px solid white;
+        top: 100%;
+        border-left: 65px solid transparent;
+        height: 0;
+        width: 0;
+        position: absolute;
+        right: 0; }
+      body .event-body .upcoming-events .events .event-item .event-img {
+        position: relative; }
+      body .event-body .upcoming-events .events .event-item .event-img:after {
+        content: "";
+        width: 0;
+        height: 0;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        border-top: 40px solid transparent;
+        border-left: 333px solid white; }
+      body .event-body .upcoming-events .events .event-item .events-info .events-info-txt {
+        margin: 10px 0; }
+      body .event-body .upcoming-events .events .event-item .events-info .time {
+        color: #15CADB;
+        font-weight: bold;
+        font-size: 14px;
+        margin-bottom: 5px; }
+      body .event-body .upcoming-events .events .event-item .events-info .events-title {
+        letter-spacing: 2px;
+        font-size: 20px;
+        margin-top: 0px;
+        font-weight: bold; }
+      body .event-body .upcoming-events .events .event-item .events-info .line {
+        height: 2px;
+        width: 100px;
+        background-color: #F41361; }
+      body .event-body .upcoming-events .events .event-item .events-info .lrn {
+        font-size: 12px; }
+        body .event-body .upcoming-events .events .event-item .events-info .lrn a {
+          color: #F41361; }
+      body .event-body .upcoming-events .events .event-item .events-info .btn-arr {
+        background: url("../images/btn-arr.png");
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        background-size: 100% 100%; }
